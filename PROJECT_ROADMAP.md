@@ -201,7 +201,7 @@ The project is currently in the refinement phase, where the focus is on improvin
 - Improve AI-generated draft replies.
 - Enhance priority prediction accuracy.
 - Support multilingual customer support tickets.
-- Integrate Retrieval-Augmented Generation (RAG).
+- Integrate Retrieval-Augmented Generation (RAG) to retrieve relevant information from support FAQs, policies, troubleshooting guides, and product documentation before generating draft replies.
 - Add confidence scores for model predictions.
 - Fine-tune transformer-based language models.
 - Deploy the application on cloud infrastructure.
