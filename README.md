@@ -135,33 +135,35 @@ SmolLM2 was retained as part of the development and evaluation process, while Ge
 
 ## Application Architecture
 
-    AI Customer Support Copilot
-              |
-              v
-       Frontend Dashboard
-              |
-              v
-        FastAPI Backend
-              |
-       +------+------+
-       |             |
-       v             v
-    Queue         Priority
-   Prediction     Prediction
-       |             |
-       +------+------+
-              |
-              v
-       BART Summarization
-              |
-              v
-          Gemini API
-              |
-              v
-    AI-Assisted Draft Reply
-              |
-              v
-         Agent Review
+```text
+AI Customer Support Copilot
+          |
+          v
+   Frontend Dashboard
+          |
+          v
+    FastAPI Backend
+          |
+     +----+----+
+     |         |
+     v         v
+   Queue     Priority
+ Prediction Prediction
+     |         |
+     +----+----+
+          |
+          v
+   BART Summarization
+          |
+          v
+      Gemini API
+          |
+          v
+ AI-Assisted Draft Reply
+          |
+          v
+      Agent Review
+```
 
 ---
 
